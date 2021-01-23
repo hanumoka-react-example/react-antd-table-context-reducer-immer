@@ -89,6 +89,7 @@ export default function Page4() {
                 />
                 </StateContext.Provider>
             </DispatchContext.Provider>
+            {/* 동일한 콘텍스트를 사용하는 것이 옳은 것인지 모르겠다.*/}
             <DispatchContext.Provider value={dispatch2}>
                 <StateContext.Provider value={state2}>
                     <CustomTable
